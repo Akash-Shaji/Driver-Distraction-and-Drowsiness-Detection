@@ -15,7 +15,7 @@ dash version 2.9.2
 Instructions to run Driver Distraction System
 
 
-The driver distraction folder contains 1 ipnyb notebook and 1 subfolder
+The driver distraction folder contains 1 ipnyb notebook and a driver_distraction_demo subfolder.
 The 3mdad_training_proof notebook is only to view the notebook that achieved 80% test accuracy(finetuned using random erase based on our previous notebook which had only basic augmentations). The model had to re-implement a few packages (videoframe generators and its utils) as the source package was broken. In such cases the code was copied as such into the jupyter notebook and necessary changes were made.
 
 For running the demo of the driver distraction model please keep in mind all the dependencies mentioned above especially the installation of tensorflow-addons and tf-models-official and opencv-python (might require uninstallation of opencv-headless if it shows function not built error on your system)
